@@ -1,9 +1,10 @@
 const addButton = document.getElementById("addButton");
 const colorButton = document.getElementById("colorButton");
 const element = document.getElementById("liczba");
+let value = 0
 
 function add(){
-    document.getElementById("liczba").innerText++;
+    document.getElementById("liczba").innerText = ++value;
 }
 
 function changeColor(){
